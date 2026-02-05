@@ -1,0 +1,212 @@
+/* =========================================================
+   Responsive rules (USWDS-light)
+   ========================================================= */
+
+/* Desktop arrows alignment */
+@media (min-width: 1024px) {
+    .industries-arrows {
+        position: relative;
+        top: 120px;
+    }
+}
+
+/* Tablet + Mobile nav */
+@media (max-width: 991px) {
+
+    .header-inner {
+        gap: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .nav-toggle {
+        display: block
+    }
+
+    /* Off-canvas nav */
+    .site-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 340px;
+        max-width: 86%;
+        transform: translateX(110%);
+        transition: transform .32s cubic-bezier(.2, .9, .3, 1);
+        background: #fff;
+        border-left: 1px solid rgba(0, 0, 0, .12);
+        box-shadow: -20px 30px 80px rgba(0, 0, 0, .18);
+        padding: 60px 18px 20px;
+        border-radius: 18px 0 0 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        overflow: auto;
+        z-index: 260;
+    }
+
+    .site-nav.open {
+        transform: translateX(0)
+    }
+
+    body.nav-open {
+        overflow: hidden
+    }
+
+    .site-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .site-nav a,
+    .site-nav .nav-link {
+        width: 100%;
+        padding: 12px 12px;
+    }
+
+    .nav-close {
+        display: block
+    }
+
+    /* Mega menu inside drawer */
+    .site-nav .nav-dropdown .mega-menu {
+        position: static;
+        transform: none;
+        min-width: auto;
+        max-width: none;
+        border: 0;
+        box-shadow: none;
+        padding: 0 0 10px 0;
+        border-radius: 0;
+        background: transparent;
+        display: none;
+    }
+
+    .site-nav .nav-dropdown.open>.mega-menu {
+        display: block
+    }
+
+    .site-nav .mega-row {
+        display: block
+    }
+
+    .site-nav .mega-col {
+        padding: 8px 0
+    }
+
+    .site-nav .mega-col h6 {
+        margin-bottom: 6px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #000;
+        text-underline-offset: 6px;
+    }
+
+    .site-nav .mega-col ul li a {
+        padding: 8px 10px
+    }
+
+    /* Swiper arrows move down */
+    .industries-section .swiper-button-prev,
+    .industries-section .swiper-button-next {
+        top: auto;
+        bottom: -56px;
+    }
+
+    /* Blog */
+    .bw-blog__image,
+    .bw-blog__content {
+        width: 100%
+    }
+
+    .bw-blog__content {
+        padding: 26px
+    }
+
+    .bw-blog__header {
+        flex-wrap: wrap
+    }
+
+    .bw-features__grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+/* Medium */
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 64px 0 56px
+    }
+
+    .hero-section h1 {
+        font-size: 34px
+    }
+
+    .hero-section p {
+        font-size: 16px
+    }
+
+    .bw-partners__heading,
+    .bw-services__title,
+    .industries-title,
+    .bw-features__title,
+    .bw-process__title,
+    .bw-blog__title {
+        font-size: 28px;
+    }
+
+    /* Process timeline */
+    .bw-process__timeline::before {
+        left: 0
+    }
+
+    .bw-step,
+    .bw-step--left,
+    .bw-step--right {
+        width: 100%;
+        padding: 18px 0 18px 22px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .bw-cta__box {
+        padding: 34px 22px
+    }
+
+    .bw-blog__content {
+        padding: 22px
+    }
+}
+
+/* Small mobile */
+@media (max-width: 576px) {
+
+    .logo {
+        font-size: 1rem
+    }
+
+    .hero-section h1 {
+        font-size: 28px
+    }
+
+    .hero-section p {
+        font-size: 15px
+    }
+
+    .hero-btn {
+        padding: 12px 18px !important
+    }
+
+    .bw-features__grid {
+        grid-template-columns: 1fr
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px
+    }
+}
