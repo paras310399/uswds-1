@@ -1,574 +1,523 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet" />
     <!-- custom css files -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/css/uswds.min.css" rel="stylesheet" />
+    <link href="uswds-overrides.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/media.css" rel="stylesheet" />
+    </link>
 </head>
 
-<body>
+<body><a class="usa-skipnav" href="#main-content">Skip to main content</a>
     <!-- site loader: shows until full page assets are loaded -->
-    <div id="siteLoader" class="site-loader" aria-hidden="false">
-        <div class="spinner" aria-hidden="true"></div>
-    </div>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="logo" href="/landing.html">Lorem Ipsum</a>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-            <nav class="site-nav" id="siteNav" aria-hidden="true">
-                <button class="nav-close" id="navClose" aria-label="Close navigation">✕</button>
-                <ul>
-                    <li><a href="/landing.html">Home</a></li>
 
-                    <!-- Services Mega Menu -->
-                    <li class="nav-item nav-dropdown">
-                        <button class="nav-link nav-dropdown-toggle" aria-expanded="false">Services <i
-                                class="bi bi-chevron-down"></i></button>
-                        <div class="mega-menu" role="menu" aria-hidden="true">
-                            <div class="mega-row">
-                                <div class="mega-col">
-                                    <h6>Professional Services</h6>
-                                    <ul>
-                                        <li><a href="#">Consulting</a></li>
-                                        <li><a href="#">Strategy Development</a></li>
-                                        <li><a href="#">Business Solutions</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-col">
-                                    <h6>Support & Implementation</h6>
-                                    <ul>
-                                        <li><a href="#">Implementation Services</a></li>
-                                        <li><a href="#">Custom Solutions</a></li>
-                                        <li><a href="#">Training & Support</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-col">
-                                    <h6>Advanced Solutions</h6>
-                                    <ul>
-                                        <li><a href="#">AI & Analytics</a></li>
-                                        <li><a href="#">Automation Services</a></li>
-                                    </ul>
+    <header class="site-header usa-header--basic usa-header">
+        <div class="grid-container">
+            <div class="header-inner grid-container">
+                <a class="logo" href="/landing.html">Lorem Ipsum</a>
+                <button aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle"
+                    id="navToggle">☰</button>
+                <nav aria-hidden="true" class="site-nav" id="siteNav">
+                    <button aria-label="Close navigation" class="nav-close" id="navClose">✕</button>
+                    <ul>
+                        <li><a href="/landing.html">Home</a></li>
+                        <!-- Services Mega Menu -->
+                        <li class="nav-item nav-dropdown">
+                            <button aria-expanded="false" class="nav-link nav-dropdown-toggle">Services <i
+                                    class="bi bi-chevron-down"></i></button>
+                            <div aria-hidden="true" class="mega-menu" role="menu">
+                                <div class="mega-row">
+                                    <div class="mega-col">
+                                        <h6>Professional Services</h6>
+                                        <ul>
+                                            <li><a href="#">Consulting</a></li>
+                                            <li><a href="#">Strategy Development</a></li>
+                                            <li><a href="#">Business Solutions</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <h6>Support &amp; Implementation</h6>
+                                        <ul>
+                                            <li><a href="#">Implementation Services</a></li>
+                                            <li><a href="#">Custom Solutions</a></li>
+                                            <li><a href="#">Training &amp; Support</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <h6>Advanced Solutions</h6>
+                                        <ul>
+                                            <li><a href="#">AI &amp; Analytics</a></li>
+                                            <li><a href="#">Automation Services</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact US</a></li>
-                    <li><a class="btn-white btn btn-outline-light rounded-pill px-4 py-2" href="/contact/">Get a
-                            Quote</a></li>
-                </ul>
-            </nav>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a class="py-2 px-4 rounded-pill usa-button btn-outline-light btn-white"
+                                href="/contact/">Get a
+                                Quote</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-
+    <main id="main-content">
+        <div aria-hidden="false" class="site-loader" id="siteLoader">
+            <div aria-hidden="true" class="spinner"></div>
+        </div>
+        <main id="mainContent">
+            <section class="usa-section hero-section">
+                <div class="swiper heroSwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="h-100 d-flex align-items-center grid-container">
+                                <div class="row justify-content-center text-center w-100">
+                                    <div class="col-lg-8">
+                                        <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
+                                        <p data-aos="fade-up" data-aos-delay="200">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div data-aos="zoom-in" data-aos-delay="400">
+                                            <a class="usa-button" href="#">Get In Touch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="h-100 d-flex align-items-center grid-container">
+                                <div class="row justify-content-center text-center w-100">
+                                    <div class="col-lg-8">
+                                        <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
+                                        <p data-aos="fade-up" data-aos-delay="200">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div data-aos="zoom-in" data-aos-delay="400">
+                                            <a class="usa-button" href="#">Get In Touch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="h-100 d-flex align-items-center grid-container">
+                                <div class="row justify-content-center text-center w-100">
+                                    <div class="col-lg-8">
+                                        <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
+                                        <p data-aos="fade-up" data-aos-delay="200">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div data-aos="zoom-in" data-aos-delay="400">
+                                            <a class="usa-button" href="#">Get In Touch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Background effect -->
+                <div class="lines"></div>
+            </section>
+            <section class="bw-partners usa-section">
+                <div class="grid-container">
+                    <div class="bw-partners__title text-center" data-aos="fade-up">
+                        <h2 class="bw-partners__heading">Trusted by Global Brands</h2>
+                        <p class="bw-partners__subheading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                        </p>
+                    </div>
+                    <div class="bw-partners__slider">
+                        <div class="bw-partners__track">
+                            <!-- Logos (repeat same logos twice for infinite effect) -->
+                            <div class="bw-partners__logo"><img alt="Netflix logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Shopify logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Shopify_logo_2018.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Google logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Microsoft logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Amazon logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Amazon_logo.svg" /></div>
+                            <!-- Duplicate for smooth loop -->
+                            <div class="bw-partners__logo"><img alt="Netflix logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Shopify logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Shopify_logo_2018.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Google logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Microsoft logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" />
+                            </div>
+                            <div class="bw-partners__logo"><img alt="Amazon logo"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Amazon_logo.svg" /></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="usa-section bw-services">
+                <div class="grid-container">
+                    <div class="bw-services__header text-center">
+                        <h2 class="bw-services__title">
+                            Our Professional Services Customized to Your Needs
+                        </h2>
+                        <p class="bw-services__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut enim ad minim veniam.
+                        </p>
+                    </div>
+                    <div class="row g-4 mt-5">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="bw-card">
+                                <div class="bw-icon">📱</div>
+                                <h4>Professional Consultation</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                    incididunt
+                                    ut labore.
+                                </p>
+                                <a class="py-2 px-4 rounded-pill usa-button btn-outline-light btn-white" href="#">View
+                                    Details
+                                    →</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="bw-card bw-card--active">
+                                <div class="bw-icon">🌐</div>
+                                <h4>Enterprise Solutions</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna.</p>
+                                <a class="py-2 px-4 rounded-pill usa-button btn-outline-light btn-white" href="#">View
+                                    Details
+                                    →</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="bw-card">
+                                <div class="bw-icon">⚙️</div>
+                                <h4>Custom Solutions</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                    incididunt
+                                    ut labore.</p>
+                                <a class="py-2 px-4 rounded-pill usa-button btn-outline-light btn-white" href="#">View
+                                    Details
+                                    →</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="bw-card">
+                                <div class="bw-icon">🤖</div>
+                                <h4>Advanced Technology</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore.</p>
+                                <a class="py-2 px-4 rounded-pill usa-button btn-outline-light btn-white" href="#">View
+                                    Details
+                                    →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="usa-section industries-section">
+                <div class="grid-container">
+                    <!-- Heading + Arrows -->
+                    <div class="row align-items-start mb-5">
+                        <div class="col-lg-9">
+                            <h2 class="industries-title">
+                                Industries We Serve with Our Professional Services
+                            </h2>
+                            <p class="industries-desc mt-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                        <!-- Arrows -->
+                        <div class="col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0 position-relative">
+                            <div class="industries-arrows">
+                                <button aria-label="Previous slide"
+                                    class="industries-arrow industries-prev swiper-button-prev"></button>
+                                <button aria-label="Next slide"
+                                    class="industries-arrow industries-next swiper-button-next"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper industries-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="industry-card">
+                                    <h5>Finance</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                        incididunt ut labore.
+                                    </p>
+                                    <a class="industry-link" href="#">View Details →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="industry-card">
+                                    <h5>Food &amp; Grocery</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                        incididunt.
+                                    </p>
+                                    <a class="industry-link" href="#">View Details →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="industry-card">
+                                    <h5>E-Commerce</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                        incididunt ut.
+                                    </p>
+                                    <a class="industry-link" href="#">View Details →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="industry-card">
+                                    <h5>Real Estate</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                        incididunt.
+                                    </p>
+                                    <a class="industry-link" href="#">View Details →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="industry-card">
+                                    <h5>Technology</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                        incididunt ut labore.
+                                    </p>
+                                    <a class="industry-link" href="#">View Details →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bw-features usa-section">
+                <div class="grid-container">
+                    <div class="bw-features__header text-center" data-aos="fade-up">
+                        <h2 class="bw-features__title">Why Choose Us for Professional Services?</h2>
+                        <p class="bw-features__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip.
+                        </p>
+                    </div>
+                    <div class="bw-features__grid">
+                        <div class="bw-feature" data-aos="fade-up">
+                            <div class="bw-feature__icon"><i class="bi bi-bar-chart"></i></div>
+                            <h4 class="bw-feature__title">Accurate and High Quality</h4>
+                            <p class="bw-feature__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                        <div class="bw-feature bw-feature--highlight" data-aos="fade-up" data-aos-delay="100">
+                            <div class="bw-feature__icon"><i class="bi bi-clock-history"></i></div>
+                            <h4 class="bw-feature__title">Fast Response Times</h4>
+                            <p class="bw-feature__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna.
+                            </p>
+                        </div>
+                        <div class="bw-feature" data-aos="fade-up" data-aos-delay="200">
+                            <div class="bw-feature__icon"><i class="bi bi-sliders"></i></div>
+                            <h4 class="bw-feature__title">Customized Solutions</h4>
+                            <p class="bw-feature__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                        <div class="bw-feature" data-aos="fade-up" data-aos-delay="300">
+                            <div class="bw-feature__icon"><i class="bi bi-cash-coin"></i></div>
+                            <h4 class="bw-feature__title">Cost and Time Efficiency</h4>
+                            <p class="bw-feature__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna.
+                            </p>
+                        </div>
+                        <div class="bw-feature" data-aos="fade-up" data-aos-delay="400">
+                            <div class="bw-feature__icon"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h4 class="bw-feature__title">Enhanced Scalability</h4>
+                            <p class="bw-feature__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bw-cta usa-section">
+                <div class="grid-container">
+                    <div class="bw-cta__box">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-lg-8">
+                                <h2 class="bw-cta__title">
+                                    Lorem Ipsum Success Connect with us today!
+                                </h2>
+                                <p class="bw-cta__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                                    incididunt
+                                    ut labore.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                                <a class="usa-button" href="#">Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="usa-section bw-process">
+                <div class="grid-container">
+                    <div class="bw-process__header text-center" data-aos="fade-up">
+                        <h2 class="bw-process__title">Professional Process We Follow</h2>
+                        <p class="bw-process__subtitle" data-aos="fade-up" data-aos-delay="150">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                    </div>
+                    <div class="bw-process__timeline">
+                        <!-- Step 1 -->
+                        <div class="bw-step bw-step--left" data-aos="fade-right">
+                            <div class="bw-step__content">
+                                <span class="bw-step__number">01</span>
+                                <h4 class="bw-step__title">Initial Consultation</h4>
+                                <p class="bw-step__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="bw-step bw-step--right" data-aos="fade-left">
+                            <div class="bw-step__content">
+                                <span class="bw-step__number">02</span>
+                                <h4 class="bw-step__title">Solution Design</h4>
+                                <p class="bw-step__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="bw-step bw-step--left" data-aos="fade-right">
+                            <div class="bw-step__content">
+                                <span class="bw-step__number">03</span>
+                                <h4 class="bw-step__title">Implementation</h4>
+                                <p class="bw-step__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="bw-step bw-step--right" data-aos="fade-left">
+                            <div class="bw-step__content">
+                                <span class="bw-step__number">04</span>
+                                <h4 class="bw-step__title">Delivery &amp; Support</h4>
+                                <p class="bw-step__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bw-blog usa-section">
+                <div class="grid-container">
+                    <!-- Header -->
+                    <div class="bw-blog__header">
+                        <div class="bw-blog__left">
+                            <span class="bw-blog__tag">Featured Content</span>
+                            <h2 class="bw-blog__title">Latest Blog Insights</h2>
+                        </div>
+                        <div class="bw-blog__right">
+                            <a class="bw-blog__viewall" href="#">View All →</a>
+                        </div>
+                    </div>
+                    <!-- Blog Card -->
+                    <div class="bw-blog__card">
+                        <div class="bw-blog__row">
+                            <!-- Image -->
+                            <div class="bw-blog__image">
+                                <img alt="" class="bw-blog__img" src="./assets/image/blog-img.jpg" />
+                            </div>
+                            <!-- Content -->
+                            <div class="bw-blog__content">
+                                <div class="bw-blog__meta">
+                                    <span class="bw-blog__author">By Admin</span>
+                                    <span class="bw-blog__date">06 Jan 2026</span>
+                                </div>
+                                <h3 class="bw-blog__heading">
+                                    Lorem Ipsum - Professional Services Overview
+                                </h3>
+                                <p class="bw-blog__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud...
+                                </p>
+                                <a class="bw-blog__read" href="#">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </main>
     <a class="skip-link" href="#mainContent">Skip to main content</a>
 
-    <main id="mainContent">
-        <section class="hero-section">
-            <div class="swiper heroSwiper">
-                <div class="swiper-wrapper">
-
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="container h-100 d-flex align-items-center">
-                            <div class="row justify-content-center text-center w-100">
-                                <div class="col-lg-8">
-
-                                    <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
-                                    <p data-aos="fade-up" data-aos-delay="200">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div data-aos="zoom-in" data-aos-delay="400">
-                                        <a href="#" class="btn hero-btn">Get In Touch</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="container h-100 d-flex align-items-center">
-                            <div class="row justify-content-center text-center w-100">
-                                <div class="col-lg-8">
-
-                                    <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
-                                    <p data-aos="fade-up" data-aos-delay="200">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div data-aos="zoom-in" data-aos-delay="400">
-                                        <a href="#" class="btn hero-btn">Get In Touch</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="container h-100 d-flex align-items-center">
-                            <div class="row justify-content-center text-center w-100">
-                                <div class="col-lg-8">
-
-                                    <h1 data-aos="fade-up">Lorem Ipsum Services For Your Needs</h1>
-                                    <p data-aos="fade-up" data-aos-delay="200">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div data-aos="zoom-in" data-aos-delay="400">
-                                        <a href="#" class="btn hero-btn">Get In Touch</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Background effect -->
-            <div class="lines"></div>
-        </section>
-
-        <section class="bw-partners">
-            <div class="container">
-
-                <div class="bw-partners__title text-center" data-aos="fade-up">
-                    <h2 class="bw-partners__heading">Trusted by Global Brands</h2>
-                    <p class="bw-partners__subheading">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
-                    </p>
-                </div>
-
-                <div class="bw-partners__slider">
-                    <div class="bw-partners__track">
-
-                        <!-- Logos (repeat same logos twice for infinite effect) -->
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
-                                alt="Netflix logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Shopify_logo_2018.svg"
-                                alt="Shopify logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-                                alt="Google logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
-                                alt="Microsoft logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Amazon_logo.svg"
-                                alt="Amazon logo"></div>
-
-                        <!-- Duplicate for smooth loop -->
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
-                                alt="Netflix logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Shopify_logo_2018.svg"
-                                alt="Shopify logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-                                alt="Google logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
-                                alt="Microsoft logo"></div>
-                        <div class="bw-partners__logo"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Amazon_logo.svg"
-                                alt="Amazon logo"></div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="bw-services">
-            <div class="container">
-
-                <div class="bw-services__header text-center">
-                    <h2 class="bw-services__title">
-                        Our Professional Services Customized to Your Needs
-                    </h2>
-                    <p class="bw-services__subtitle">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua ut enim ad minim veniam.
-                    </p>
-                </div>
-
-                <div class="row g-4 mt-5">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="bw-card">
-                            <div class="bw-icon">📱</div>
-                            <h4>Professional Consultation</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                ut labore.
-                            </p>
-                            <a href="#" class="btn-white btn btn-outline-light rounded-pill px-4 py-2">View Details
-                                →</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="bw-card bw-card--active">
-                            <div class="bw-icon">🌐</div>
-                            <h4>Enterprise Solutions</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                                ut labore et dolore magna.</p>
-                            <a href="#" class="btn-white btn btn-outline-light rounded-pill px-4 py-2">View Details
-                                →</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="bw-card">
-                            <div class="bw-icon">⚙️</div>
-                            <h4>Custom Solutions</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                ut labore.</p>
-                            <a href="#" class="btn-white btn btn-outline-light rounded-pill px-4 py-2">View Details
-                                →</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="bw-card">
-                            <div class="bw-icon">🤖</div>
-                            <h4>Advanced Technology</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                ut labore et dolore.</p>
-                            <a href="#" class="btn-white btn btn-outline-light rounded-pill px-4 py-2">View Details
-                                →</a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="industries-section">
-            <div class="container">
-
-                <!-- Heading + Arrows -->
-                <div class="row align-items-start mb-5">
-                    <div class="col-lg-9">
-                        <h2 class="industries-title">
-                            Industries We Serve with Our Professional Services
-                        </h2>
-                        <p class="industries-desc mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                    <!-- Arrows -->
-                    <div class="col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0 position-relative">
-                        <div class="industries-arrows">
-                            <button class="industries-arrow industries-prev swiper-button-prev"
-                                aria-label="Previous slide"></button>
-                            <button class="industries-arrow industries-next swiper-button-next"
-                                aria-label="Next slide"></button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Swiper -->
-                <div class="swiper industries-swiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="industry-card">
-                                <h5>Finance</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                    incididunt ut labore.
-                                </p>
-                                <a href="#" class="industry-link">View Details →</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="industry-card">
-                                <h5>Food & Grocery</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                                <a href="#" class="industry-link">View Details →</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="industry-card">
-                                <h5>E-Commerce</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                                    incididunt ut.
-                                </p>
-                                <a href="#" class="industry-link">View Details →</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="industry-card">
-                                <h5>Real Estate</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                                <a href="#" class="industry-link">View Details →</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="industry-card">
-                                <h5>Technology</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                                    incididunt ut labore.
-                                </p>
-                                <a href="#" class="industry-link">View Details →</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="bw-features">
-            <div class="container">
-
-                <div class="bw-features__header text-center" data-aos="fade-up">
-                    <h2 class="bw-features__title">Why Choose Us for Professional Services?</h2>
-                    <p class="bw-features__subtitle">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip.
-                    </p>
-                </div>
-
-                <div class="bw-features__grid">
-
-                    <div class="bw-feature" data-aos="fade-up">
-                        <div class="bw-feature__icon"><i class="bi bi-bar-chart"></i></div>
-                        <h4 class="bw-feature__title">Accurate and High Quality</h4>
-                        <p class="bw-feature__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                    <div class="bw-feature bw-feature--highlight" data-aos="fade-up" data-aos-delay="100">
-                        <div class="bw-feature__icon"><i class="bi bi-clock-history"></i></div>
-                        <h4 class="bw-feature__title">Fast Response Times</h4>
-                        <p class="bw-feature__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.
-                        </p>
-                    </div>
-
-                    <div class="bw-feature" data-aos="fade-up" data-aos-delay="200">
-                        <div class="bw-feature__icon"><i class="bi bi-sliders"></i></div>
-                        <h4 class="bw-feature__title">Customized Solutions</h4>
-                        <p class="bw-feature__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                    <div class="bw-feature" data-aos="fade-up" data-aos-delay="300">
-                        <div class="bw-feature__icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4 class="bw-feature__title">Cost and Time Efficiency</h4>
-                        <p class="bw-feature__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.
-                        </p>
-                    </div>
-
-                    <div class="bw-feature" data-aos="fade-up" data-aos-delay="400">
-                        <div class="bw-feature__icon"><i class="bi bi-graph-up-arrow"></i></div>
-                        <h4 class="bw-feature__title">Enhanced Scalability</h4>
-                        <p class="bw-feature__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="bw-cta">
-            <div class="container">
-                <div class="bw-cta__box">
-                    <div class="row align-items-center position-relative ">
-
-                        <div class="col-lg-8">
-                            <h2 class="bw-cta__title">
-                                Lorem Ipsum Success Connect with us today!
-                            </h2>
-                            <p class="bw-cta__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                ut labore.
-                            </p>
-                        </div>
-
-                        <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                            <a href="#" class="bw-cta__button">Get a Quote</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bw-process">
-            <div class="container">
-
-                <div class="bw-process__header text-center" data-aos="fade-up">
-                    <h2 class="bw-process__title">Professional Process We Follow</h2>
-                    <p class="bw-process__subtitle" data-aos="fade-up" data-aos-delay="150">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.
-                    </p>
-                </div>
-
-                <div class="bw-process__timeline">
-
-                    <!-- Step 1 -->
-                    <div class="bw-step bw-step--left" data-aos="fade-right">
-                        <div class="bw-step__content">
-                            <span class="bw-step__number">01</span>
-                            <h4 class="bw-step__title">Initial Consultation</h4>
-                            <p class="bw-step__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Step 2 -->
-                    <div class="bw-step bw-step--right" data-aos="fade-left">
-                        <div class="bw-step__content">
-                            <span class="bw-step__number">02</span>
-                            <h4 class="bw-step__title">Solution Design</h4>
-                            <p class="bw-step__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="bw-step bw-step--left" data-aos="fade-right">
-                        <div class="bw-step__content">
-                            <span class="bw-step__number">03</span>
-                            <h4 class="bw-step__title">Implementation</h4>
-                            <p class="bw-step__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Step 4 -->
-                    <div class="bw-step bw-step--right" data-aos="fade-left">
-                        <div class="bw-step__content">
-                            <span class="bw-step__number">04</span>
-                            <h4 class="bw-step__title">Delivery & Support</h4>
-                            <p class="bw-step__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="bw-blog">
-            <div class="container">
-
-                <!-- Header -->
-                <div class="bw-blog__header">
-                    <div class="bw-blog__left">
-                        <span class="bw-blog__tag">Featured Content</span>
-                        <h2 class="bw-blog__title">Latest Blog Insights</h2>
-                    </div>
-                    <div class="bw-blog__right">
-                        <a href="#" class="bw-blog__viewall">View All →</a>
-                    </div>
-                </div>
-
-                <!-- Blog Card -->
-                <div class="bw-blog__card">
-                    <div class="bw-blog__row">
-
-                        <!-- Image -->
-                        <div class="bw-blog__image">
-                            <img src="./assets/image/blog-img.jpg" class="bw-blog__img" alt="">
-                        </div>
-
-                        <!-- Content -->
-                        <div class="bw-blog__content">
-                            <div class="bw-blog__meta">
-                                <span class="bw-blog__author">By Admin</span>
-                                <span class="bw-blog__date">06 Jan 2026</span>
-                            </div>
-
-                            <h3 class="bw-blog__heading">
-                                Lorem Ipsum - Professional Services Overview
-                            </h3>
-
-                            <p class="bw-blog__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud...
-                            </p>
-
-                            <a href="#" class="bw-blog__read">Read More →</a>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-    </main>
     <footer class="site-footer">
-        <div class="container">
-
+        <div class="grid-container">
             <div class="row footer-top gy-4">
-
                 <!-- Brand -->
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-brand">
@@ -576,14 +525,12 @@
                         <p>
                             Professional services company providing expert consultation and innovative solutions.
                         </p>
-
                         <form class="footer-subscribe">
-                            <input type="email" placeholder="Email">
+                            <input placeholder="Email" type="email" />
                             <button type="submit">Subscribe</button>
                         </form>
                     </div>
                 </div>
-
                 <!-- Services -->
                 <div class="col-lg-3 col-md-6">
                     <h5 class="footer-title">Services</h5>
@@ -594,7 +541,6 @@
                         <li><a href="#">Enterprise Support</a></li>
                     </ul>
                 </div>
-
                 <!-- Industries -->
                 <div class="col-lg-3 col-md-6">
                     <h5 class="footer-title">Industries</h5>
@@ -606,50 +552,43 @@
                         <li><a href="#">Technology Services</a></li>
                     </ul>
                 </div>
-
                 <!-- Contact -->
                 <div class="col-lg-2 col-md-6">
                     <h5 class="footer-title">Contact</h5>
                     <ul class="footer-contact">
                         <li>
-                            <a href="mailto:info@loremipsum.com" class="footer-contact-link">
+                            <a class="footer-contact-link" href="mailto:info@loremipsum.com">
                                 info@loremipsum.com
                             </a>
                         </li>
                         <li>
-                            <a href="tel:+11234567890" class="footer-contact-link">
+                            <a class="footer-contact-link" href="tel:+11234567890">
                                 📞 +1 123 456 7890
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-
             <!-- Bottom -->
             <div class="footer-bottom">
                 <p>© 2026 Lorem Ipsum. All Rights Reserved.</p>
                 <div class="footer-social">
-                    <a href="#" aria-label="YouTube">▶</a>
-                    <a href="#" aria-label="LinkedIn">in</a>
-                    <a href="#" aria-label="X">X</a>
+                    <a aria-label="YouTube" href="#">▶</a>
+                    <a aria-label="LinkedIn" href="#">in</a>
+                    <a aria-label="X" href="#">X</a>
                 </div>
             </div>
-
         </div>
     </footer>
-
-
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- AOS Animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <!-- swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
     <!-- custom script -->
-    <script src="./assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/js/uswds.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
 </body>
 
 </html>
